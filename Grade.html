@@ -3,7 +3,7 @@
   <title> step-juice.blogspot.com โปรแกรมคำนวณเกรด </title>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8"
 <script language="Javascript">
- funcction calculateGrade()
+ function calculateGrade()
  {
   var g = document.getElementById("g").value;
   var objDiv = document.getElementById("showGrade");
@@ -11,17 +11,17 @@
    objDiv.innerHTML = "ได้เกรด A";
   else if (g >= 70)
    objDiv.innerHTML = "ได้เกรด B";
-  else if (g >=60)
+  else if (g >= 60)
    objDiv.innerHTML = "ได้เกรด C";
-  else if (g >=50)
+  else if (g >= 50)
    objDiv.innerHTML = "ได้เกรด D";
   else 
    objDiv.innerHTML = "ได้เกรด F";
    }
-   </scripc>
+   </script>
     </head>
     <body>
     เกรด <input type="text" name="g" id="g"><input type="button" value="คำนวณเกรด" onclick="calculateGrade()">
-     <div id="showGrade"></div
+     <div id="showGrade"></div>
     </body>
    </html>
